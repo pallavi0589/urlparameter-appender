@@ -9,7 +9,7 @@ The application also displays a paginated list of all persisted URLs.
 - Display the new URL with parameters appended.
 - Paginated list of all URLs stored in the database.
 - Validation of URLs and parameters on the client side.
-- 
+  
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 - **Node.js** (>=14.x) - Required to run the back-end and front-end of the application.
