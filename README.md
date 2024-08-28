@@ -37,7 +37,7 @@ brew install mongodb-community@6.0
 ```
 #### **3. Start MongoDB**
 ```bash
-brew services start mongodb/brew/mongodb-community
+brew services start mongodb/brew/mongodb-community@6.0
 ```
 #### **4. Verify MongoDB Installation**
 ```bash
