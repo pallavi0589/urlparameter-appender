@@ -9,14 +9,17 @@ The application also displays a paginated list of all persisted URLs.
 - Display the new URL with parameters appended.
 - Paginated list of all URLs stored in the database.
 - Validation of URLs and parameters on the client side.
-
+- 
 ## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- **Node.js** (>=14.x) - Required to run the back-end and front-end of the application.
+- **npm** - Required to manage project dependencies.
+- **TypeScript** (>=4.x) - TypeScript is used for type safety in both front-end and back-end code.
+- **MongoDB** (>=4.x) - A NoSQL database used to store the URLs.
+- **Redis** (>=5.x) - An in-memory data structure store used for caching.
 
-- Node.js (>=14.x)
-- npm or yarn
 
 ## **Installation Steps for MongoDB and Redis**
-
 ### **For macOS**
 
 #### **1. Install Homebrew (if not already installed)**
@@ -38,15 +41,16 @@ brew services start mongodb/brew/mongodb-community
 mongosh
 ```
 This command opens the MongoDB shell, indicating that MongoDB is running correctly.
-#### **5. Install Redis**
+
+#### **. Install Redis**
 ```bash
 brew install redis
 ```
-#### **6. Start Redis**
+#### **1. Start Redis**
 ```bash
 brew services start redis
 ```
-#### **7. Verify Redis Installation**
+#### **2. Verify Redis Installation**
 ```bash
 redis-cli
 ```
