@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 - **MongoDB** (>=4.x) - A NoSQL database used to store the URLs.
 - **Redis** (>=5.x) - An in-memory data structure store used for caching.
 
-##**Installation steps for the libraries **
+## Installation Steps for the libraries
 - npm install
 - Backend is running on 3000 port. Hence Frontend will ask to change the port number from 3000 to the new one.
   
