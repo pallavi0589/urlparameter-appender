@@ -20,7 +20,8 @@ Before you begin, ensure you have met the following requirements:
 
 ##**Installation steps for the libraries **
 - npm install
-- 
+- Backend is running on 3000 port. Hence Frontend will ask to change the port number from 3000 to the new one.
+  
 ## **Installation Steps for MongoDB and Redis**
 ### **For macOS**
 
