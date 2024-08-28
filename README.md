@@ -18,7 +18,9 @@ Before you begin, ensure you have met the following requirements:
 - **MongoDB** (>=4.x) - A NoSQL database used to store the URLs.
 - **Redis** (>=5.x) - An in-memory data structure store used for caching.
 
-
+##**Installation steps for the libraries **
+- npm install
+- 
 ## **Installation Steps for MongoDB and Redis**
 ### **For macOS**
 
